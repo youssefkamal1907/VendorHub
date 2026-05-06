@@ -54,3 +54,4 @@ C:\Users\youss\Downloads\VendorHub\VendorHub-back\obj\Debug\net10.0\refint\Vendo
 C:\Users\youss\Downloads\VendorHub\VendorHub-back\obj\Debug\net10.0\VendorHub.pdb
 C:\Users\youss\Downloads\VendorHub\VendorHub-back\obj\Debug\net10.0\VendorHub.genruntimeconfig.cache
 C:\Users\youss\Downloads\VendorHub\VendorHub-back\obj\Debug\net10.0\ref\VendorHub.dll
+C:\Users\youss\Downloads\VendorHub\VendorHub-back\obj\Debug\net10.0\VendorHub.sourcelink.json
