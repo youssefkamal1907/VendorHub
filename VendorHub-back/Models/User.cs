@@ -1,5 +1,6 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+// بتقول ازاي ال سي شارب تتحول لمونجو و العكس
 
 namespace VendorHub.Models
 {
@@ -8,19 +9,14 @@ namespace VendorHub.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; } = null!;
-
         [BsonElement("name")]
         public string Name { get; set; } = null!;
-
         [BsonElement("email")]
         public string Email { get; set; } = null!;
-
         [BsonElement("passwordHash")]
         public string PasswordHash { get; set; } = null!;
-
         [BsonElement("role")]
         public string Role { get; set; } = "Customer"; // Admin | Vendor | Customer
-
         [BsonElement("status")]
         public string Status { get; set; } = "Pending"; // Pending | Active | Rejected (for Vendors)
 

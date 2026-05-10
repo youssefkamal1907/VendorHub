@@ -5,9 +5,7 @@ using VendorHub.DTOs;
 using VendorHub.Interfaces;
 using VendorHub.Services;
 
-// ─────────────────────────────────────────────────────────────────────────────
 // Auth Controller
-// ─────────────────────────────────────────────────────────────────────────────
 namespace VendorHub.Controllers
 {
     [ApiController]
@@ -32,9 +30,7 @@ namespace VendorHub.Controllers
         }
     }
 
-    // ─────────────────────────────────────────────────────────────────────────
     // Admin Controller
-    // ─────────────────────────────────────────────────────────────────────────
     [ApiController]
     [Route("api/admin")]
     [Authorize(Roles = "Admin")]
